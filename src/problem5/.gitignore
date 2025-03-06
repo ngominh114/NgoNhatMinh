@@ -1,0 +1,56 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript build files
+dist/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+debug.log
+error.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Misc
+.DS_Store
+Thumbs.db
+*.bak
+
+# Application Insights telemetry logs
+applicationinsights.json
+*.ai.config
+
+# Production build
+build/
+out/
