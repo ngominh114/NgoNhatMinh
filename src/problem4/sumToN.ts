@@ -34,3 +34,10 @@ function sum_to_n_c(n: number): number {
     
     return n + sum_to_n_c(n-1);
 }
+
+//Testing with edge case:
+console.log(`Sum to 0 with 3 methods: ${sum_to_n_a(0)} ${sum_to_n_b(0)} ${sum_to_n_c(0)}`);
+console.log(`Sum to 1 with 3 methods: ${sum_to_n_a(1)} ${sum_to_n_b(1)} ${sum_to_n_c(1)}`);
+
+//Testing with random number:
+console.log(`Sum to 10 with 3 methods: ${sum_to_n_a(10)} ${sum_to_n_b(10)} ${sum_to_n_c(10)}`);
