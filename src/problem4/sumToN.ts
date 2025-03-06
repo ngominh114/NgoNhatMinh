@@ -28,8 +28,8 @@ function sum_to_n_b(n: number): number {
 */
 
 function sum_to_n_c(n: number): number {
-    if (n === 1){
-        return 1;
+    if (n === 1 || n === 0){
+        return n;
     }
     
     return n + sum_to_n_c(n-1);
