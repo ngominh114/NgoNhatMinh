@@ -122,4 +122,4 @@ Whenever there's an update in the scoreboard, the WebSocket server will notify a
 ## Potential Improvement for the Future
 1. Implement a rate limiter to restrict the number of request that user can make in a certain amount of time.
 2. Add a Logging mechanism to store all the action and score history. Make it the data more consistent and tracable.
-3. If the number of user increase we can scale up the API server by add an `API Gateway` and a `Load Balancer` and then increase the number of API server instance.
+3. If the number of user increase, we can separate the Authentication Service out, then scale up the API server by add an `API Gateway` and a `Load Balancer` and then increase the number of API server instance.
